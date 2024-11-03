@@ -35,6 +35,14 @@ If you’d like to run the game using your own Lua interpreter and LOVE installa
 2. **Install LOVE**  
    - Download and install the latest version of LOVE from [LOVE's download page](https://love2d.org/#download).
 
+2. **Add Love to Path**  
+   - Follow the steps at: [LOVE's download page](https://love2d.org/#download) and make sure you add love to path.
+   - test it by running this: should not return error. 
+      ```bash
+     love
+     ```
+      
+
 3. **Run the Game**  
    - In a terminal, navigate to the `source-code` directory and run:
      ```bash
