@@ -1,53 +1,46 @@
-Here’s a detailed GitHub description in Markdown format to guide users on how to run your game:
-
 # RoboPet
 
-Welcome to the **RoboPet** GitHub page! Here you’ll find everything you need to download and run the game on your system. Follow the steps below to get started:
+Welcome to **RoboPet**! Follow the instructions below to download and run the game on your system.
 
 ---
 
 ## How to Run the Game
 
-### Option 1: Run with pre-packaged LOVE 11.5 for Windows
+### Step-by-Step Instructions
 
 1. **Clone or Download the Repository**  
    - **Clone:** Open a terminal and run:
      ```bash
-     git clone https://github.com/yourusername/yourrepository.git
+     git clone https://github.com/HR6002/RoboPet.git
      ```
-   - **Download ZIP:** Click the green "Code" button at the top of this page and select "Download ZIP". Unzip the downloaded file.
+   - **Download ZIP:** Click the green "Code" button at the top of this page, select "Download ZIP", and unzip the downloaded file.
 
-2. **Unzip LOVE 11.5**  
-   - Download the pre-packaged **LOVE 11.5 for Windows** from the [official LOVE website](https://love2d.org/).
-   - Unzip the `love-11.5-win64.zip` file.
+2. **Unzip the LOVE 11.5 Package**  
+   - Inside the unzipped repository, locate the `love-11.5-win64.zip` file.
+   - Unzip `love-11.5-win64.zip` to extract the LOVE framework.
 
 3. **Run the Game**  
-   - Inside the unzipped `love-11.5-win64` folder, locate `game.exe` and double-click it to run the game.
-   - If you see a Windows security warning, click "More info" and then "Run anyway." Alternatively, you can right-click on `game.exe` and select **Run as Administrator**.
+   - Open the `love-11.5-win64` folder and double-click `game.exe` to start the game.
+   - If you encounter a Windows security warning, click "More info" and select "Run anyway." Alternatively, you can right-click on `game.exe` and select **Run as Administrator**.
 
 ---
 
-### Option 2: Run with a Lua Interpreter and LOVE Framework
+### Alternative Option: Run with Lua and LOVE
 
-If you’d like to run the game using a Lua interpreter with LOVE, follow these steps:
+If you’d like to run the game using your own Lua interpreter and LOVE installation:
 
 1. **Install a Lua Interpreter**  
-   - Download a Lua interpreter from [Lua's official site](https://www.lua.org/download.html) or any source you prefer. Make sure to follow the installation instructions provided.
+   - Download and install Lua from [Lua's official site](https://www.lua.org/download.html).
 
-2. **Install the LOVE Framework**  
+2. **Install LOVE**  
    - Download and install the latest version of LOVE from [LOVE's download page](https://love2d.org/#download).
-   - Set up LOVE as per the official [installation guide](https://love2d.org/wiki/Getting_Started).
 
 3. **Run the Game**  
-   - Open a terminal in the directory containing the cloned or downloaded game files.
-   - Run the following command:
+   - In a terminal, navigate to the cloned or downloaded game directory and run:
      ```bash
      love .
      ```
-   - This will launch the game within the LOVE framework.
 
 ---
 
-If you have any issues, feel free to open an issue or reach out for assistance!
 
-**Enjoy the game!**
